@@ -7,7 +7,7 @@ local tweenInfoButtons = TweenInfo.new(0.35, Enum.EasingStyle.Quart, Enum.Easing
 local player = game.Players.LocalPlayer
 
 local playerGui = player.PlayerGui
-local soundService = game.SoundService
+local soundService = game:GetService("SoundService")
 local lighting = game.Lighting
 
 local uiToggled = true
